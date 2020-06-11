@@ -45,7 +45,6 @@ const App = () => {
   return (
     <div className='home'>
       <header className='home-header'>
-        {/* <h1>Web Crawler</h1> */}
         <input
           placeholder='Ex Octokit'
           className='search'
@@ -53,7 +52,7 @@ const App = () => {
           value={org}
           onChange={handleSearch}
         />
-        {/* {loading ? 'Loading...' : 'Loaded'} */}
+        {/* <p className='loading'>{loading ? 'Loading...' : 'Loaded'}</p> */}
       </header>
       <main className='home-main'>
         {repos.map((repo, index) => {

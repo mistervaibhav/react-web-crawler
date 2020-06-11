@@ -22,7 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
+    height: 550px;
     width: 600px;
     z-index: 3;
     background-color: #ffffff;
@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 
     .modal-header {
       padding: 10px 20px;

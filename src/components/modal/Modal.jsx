@@ -40,7 +40,7 @@ const Modal = forwardRef((props, ref) => {
             </div>
             <div className='sub-heading-container'>
               <p className='sub-heading'>Owned by : {repo.owner.login} </p>
-              <p className='sub-heading'>License : {repo.license.name} </p>
+              {repo.license && <p className='sub-heading'>License : {repo.license.name} </p>}
             </div>
           </header>
           <main className='modal-main'>

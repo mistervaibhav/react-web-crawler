@@ -1,7 +1,7 @@
 .item {
   width: 500px;
   border: none;
-  margin: 10px;
+  margin: 15px;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.5);
@@ -15,14 +15,14 @@
       font-family: 'Roboto';
       font-size: 32px;
       color: #343434;
-      padding: 2px;
+      padding: 5px;
     }
 
     .description {
       font-family: 'Roboto';
       font-size: 14.5px;
       color: #555555;
-      padding: 2px;
+      padding: 5px;
     }
   }
 
@@ -33,12 +33,12 @@
       font-family: 'Roboto';
       font-size: 16px;
       color: #343434;
-      padding: 5px;
+      padding: 7px;
     }
   }
 
   .item-footer {
-    padding: 7px;
+    padding: 10px;
     background-color: #dd4b39;
     border-radius: 0 0 5px 5px;
     text-align: center;
@@ -47,7 +47,7 @@
       text-decoration: none;
       font-family: 'Roboto';
       color: #e5e6eb;
-      padding: 5px;
+      padding: 7px;
       font-size: 15px;
     }
   }

@@ -17,11 +17,12 @@ p {
 
   .home-header {
     width: 100%;
-    height: 80px;
+    height: 90px;
     position: fixed;
     top: 0;
     background-color: #24292e;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -45,6 +46,10 @@ p {
       font-size: 20px;
       border-radius: 5px;
       box-shadow: 0 0 3px rgba($color: #e5e6eb, $alpha: 0.3);
+    }
+
+    .loading {
+      color: #e5e6eb;
     }
   }
 }
