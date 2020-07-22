@@ -1,6 +1,6 @@
 # Demo
 
-Follow this link [React Web Crawler](https://mistervaibhav.github.io/react-web-crawler/).
+Follow this link [React Github API client](https://mistervaibhav.github.io/react-github-api-client/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
